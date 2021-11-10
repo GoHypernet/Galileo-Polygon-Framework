@@ -1,0 +1,98 @@
+{
+    "galileo.logo": "https://cryptologos.cc/logos/polygon-matic-logo.svg?v=014",
+    "galileo.title": "Polygon",
+    "galileo.description": "Ethereum's Internet of Blockchains",
+    "galileo.widget_label": "Polygon Portal",
+    "galileo.social_links": [
+        {
+        "icon": {
+            "prefix": "fab",
+            "name": "twitter"
+        },
+        "href": "https://twitter.com/solana",
+        "priority": 0
+        },
+        {
+        "icon": {
+            "prefix": "fab",
+            "name": "github"
+        },
+        "href": "https://github.com/solana-labs/",
+        "priority": 1
+        },
+		{
+        "icon": {
+            "prefix": "fab",
+            "name": "discord"
+        },
+        "href": "https://discordapp.com/invite/pquxPsq",
+        "priority": 2
+        }
+    ],
+    "galileo.ui_components": [
+        {
+        "type": "custom",
+        "title": "Solana Resources",
+        "content": [
+            {
+            "title": "🌎 Solana Home Page",
+            "href": "https://solana.com/",
+            "priority": 0
+            },
+            {
+            "title": "📙 Developer Resources",
+            "href": "https://solana.com/developers",
+            "priority": 1
+            },
+            {
+            "title": "🛸 Node Guide",
+            "href": "https://docs.solana.com/running-validator",
+            "priority": 2
+            },
+			{
+            "title": "👨‍💻 Cluster Explorer",
+            "href": "https://explorer.solana.com/",
+            "priority": 3
+            },
+			{
+            "title": "👩‍🎓 Economics",
+            "href": "https://geth.ethereum.org/docs/getting-started/dev-mode",
+            "priority": 4
+            }
+        ]
+        },
+		{
+        "type": "custom",
+        "title": "Smart Contracts",
+        "content": [
+			{
+			"title": "🤓 On-chain Programs",
+			"href": "https://docs.solana.com/developing/on-chain-programs/overview",
+			"priority": 0
+			},
+			{
+			"title": "👷‍♂️ Command-line Guide",
+			"href": "https://docs.solana.com/cli",
+			"priority": 1
+			},
+			{
+			"title": "🚀 Deploy a Program",
+			"href": "https://docs.solana.com/cli/deploy-a-program",
+			"priority": 2
+			}
+        ]
+        },
+		{
+        "type": "custom",
+        "title": "Your API Endpoints",
+        "content": [
+			{
+			"title": "🔱 HTTP JSON-RPC",
+			"href": "/http/",
+			"priority": 0
+			}
+        ]
+        }
+    ],
+    "workbench.colorTheme": "Galileo Light"
+}

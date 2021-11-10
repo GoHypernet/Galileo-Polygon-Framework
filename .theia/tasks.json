@@ -1,0 +1,81 @@
+{
+    "tasks": [
+	    {
+            "id": "open-terminal",
+            "label": "Terminal",
+            "description": "Checks for and applies updates to the Solana CLI.",
+            "type": "shell",
+            "command": "cd /home/galileo && /bin/bash",
+			"icon": {
+                "prefix": "fas",
+                "name": "terminal"
+            }
+        },
+		{
+            "id": "update-cli",
+            "label": "Update CLI",
+            "description": "Checks for and applies updates to the Solana CLI.",
+            "type": "shell",
+            "command": "sh -c \"$(curl -sSfL https://release.solana.com/stable/install)\"",
+			"icon": {
+                "prefix": "fas",
+                "name": "sync-alt"
+            }
+        },
+        {
+            "id": "generate-key-pair",
+            "label": "Generate Keypair",
+            "description": "Make a new keypair with the Solana CLI tool.",
+            "type": "shell",
+            "command": "solana-keygen new",
+			"icon": {
+                "prefix": "fas",
+                "name": "key"
+            }
+        },
+		{
+            "id": "check-pubkey",
+            "label": "View Public Key",
+            "description": "Print your public key address to the terminal.",
+            "type": "shell",
+            "command": "solana-keygen pubkey",
+			"icon": {
+                "prefix": "far",
+                "name": "eye"
+            }
+        },
+        {
+            "id": "target-devnet",
+            "label": "Set Devnet",
+            "description": "Configures CLI client to point to Solana Devnet.",
+            "type": "shell",
+            "command": "solana config set --url https://api.devnet.solana.com",
+			"icon": {
+                "prefix": "fab",
+                "name": "dev"
+            }
+        },
+		{
+            "id": "target-testnet",
+            "label": "Set Testnet",
+            "description": "Configures CLI client to point to Solana Testnet.",
+            "type": "shell",
+            "command": "solana config set --url https://api.testnet.solana.com",
+			"icon": {
+                "prefix": "fas",
+                "name": "vial"
+            }
+        },
+		{
+            "id": "target-mainnet",
+            "label": "Set Mainnet",
+            "description": "Configures CLI client to point to Solana mainnet.",
+            "type": "shell",
+            "command": "solana config set --url https://api.testnet.solana.com",
+			"icon": {
+                "prefix": "fas",
+                "name": "home"
+            }
+        }		
+    ]
+}
